@@ -4,92 +4,37 @@
 <%@page import="java.util.Calendar"%>				
 <%@page import="java.util.Date"%>					
 <%@page import="java.text.SimpleDateFormat"%>
-
-<%-- 저장된 헤더를 추가합니다 --%>
-<%@ include file="/WEB-INF/view/layout/header.jsp"%>
-
-<%-- 구글맵 API키를 불러옵니다--%>
-<script defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAbBV-mR71MB1Oc8kwqjn0bcIG7BEFDGuE&libraries=geometry&callback=initMap"></script>
-
-<%-- 일정을 데이터 베이스에 추가하기 위한 jquery 외부 라이브러리를 불러옵니다 --%>
-<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-
-<%-- 메모 모달 기능을 사용하기 위한 부트스트랩 외부 라이브러리를 추가합니다 --%>
-<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-
-<%-- 구글 지도를 화면에 띄우는 스크립트입니다 --%>
-<script>
-var map; // 전역 변수로 선언
-
-function initMap() {
-    map = new google.maps.Map(document.getElementById('map'), {
-        center: {lat: 36.7749, lng: 127.4194}, // 초기 위치
-        zoom: 14
-    });
-    
-  
-
-
-// Script to handle draggable items and reloading paths
-document.querySelectorAll(".dayItem").forEach(function(item) {
-    // 세션 스토리지에서 선택한 결과를 가져옵니다.
-    const selectedResultsJSON = sessionStorage.getItem(item.id);
-
-    // 선택한 결과가 있으면 해당 요소에 설정합니다.
-    if (selectedResultsJSON) {
-        const selectedResults = JSON.parse(selectedResultsJSON);
-        let content = "";
-
-        // 장소, 위도, 경도 값을 하나씩 읽어서 content에 추가합니다.
-        selectedResults.forEach(function(place) {
-            content += "<li><span class='place-name' data-lat='" + place.latitude + "' data-lng='" + place.longitude + "'>" +
-                       place.name + "</span>" +
-                       "<span style='display: none;'>위도: " + place.latitude + ", 경도: " + place.longitude + "</span></li>";
-        });
-
-        const memoContent = document.querySelector("#" + item.id + " div div #memoContent ul");
-        memoContent.innerHTML = content;
-    }
-});
-
-}
-
-</script>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+	pageEncoding="UTF-8"%>
+							<%-- 저장된 헤더를 추가합니다 --%>
+							<%@ include file="/WEB-INF/view/layout/header.jsp"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>내 이름은 윤성용</title>
+							<%-- 저장된 헤더를 추가합니다 --%>
+							<script defer src="schedule/schedule3.js"></script>
+							
+							<%-- 구글맵 API 키를 가져옵니다 --%>							
+							<script defer
+								src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAbBV-mR71MB1Oc8kwqjn0bcIG7BEFDGuE&callback=initMap">
+							</script>
 
 
 
 <html>
 <body>
 
-<div class="row" style="margin-left: 100px; margin-right: 100px">
-  
-  	<%-- 왼쪽 화면(지도) div입니다 --%>
-  	<div class="col-xl-6 ml-6">
-    	<div id="map" class="p-4" style="height: 1500px; width: 100%; margin-right: 100px;"></div>
-    </div>
-    
-    <%-- 오른쪽 화면(일정) div입니다 --%>
-    <div class="col-md-6">
-    	<div style="margin-bottom:20px">
-	    	<div class="row justify-content-center">
-				<div style="text-align: center; margin-bottom: 20px">
-		          <h4>??? 님의 여행일정</h4>
-		        </div>
-		        
-		        <div  id="startEndDateDiv" class="form-control mb-4" style="height: 50px; width: 400px;">
-		          <i class="fa-solid fa-calendar-days fa-beat fa-xl" style="color: #005eff; margin-right: 60px;"></i>
-					<span id="dateRange">${requestScope.startDate} ~ ${requestScope.endDate}</span>
-		        </div>
-	      	</div>
-		      	<i class="fa-solid fa-location-dot fa-beat fa-xl mr-4" style="color: #005eff; margin-right: 40px;"></i>
-				<span id="destination">${requestScope.destination}</span>
-      	</div>
-      	 <div style="display: flex; justify-content: flex-end;">
-		    <button id="deleteAll" style="display: none">X</button>
-		</div>
-			<div>
-			<input id="savetextname" type="text" placeholder="제목을 입력해주세요">
+<div class="row" style="margin-left: 100px;
+    margin-right: 100px";>
+	<div class="col-xl-6 ml-6">
+		<div id="map" class="p-4" style="height: 600px; width: 100%; margin-right: 100px;"></div>
+	</div>
+	<div class="col-md-6">
+		<div class="row justify-content-center">
+			<div style="text-align: center; margin-bottom: 20px">
+				<h4>??? 님의 여행일정</h4>
 			</div>
 			<div style="max-height: 1330px; overflow-y: auto;">
 			     	<c:forEach var="item" items="${resultList}" varStatus="status">

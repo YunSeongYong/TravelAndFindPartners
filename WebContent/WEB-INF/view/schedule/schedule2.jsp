@@ -91,7 +91,22 @@
 				}
 			</script>
 
-			<div class="input-group">검색하여 직접 장소를 정하기</div>
+				<%
+					String destinationString = request.getParameter("destination");
+				if (destination != null && !destination.equals("")) {
+				%>
+				<input type="text" id="search" class="form-control"
+					placeholder="<%=destination %>" aria-label="장소 검색"
+					aria-describedby="button-addon2" value="<%=destination%>">
+				<%
+					} else {
+				%>
+				<input type="text" id="search" class="form-control"
+					placeholder="장소 검색" aria-label="장소 검색"
+					aria-describedby="button-addon2">
+				<%
+					}
+				%>
 
 			<div class="input-group mb-2">
 				<input type="text" id="search" class="form-control" placeholder="구체적인 장소를 검색하세요!" aria-label="장소 검색" aria-describedby="button-addon2">

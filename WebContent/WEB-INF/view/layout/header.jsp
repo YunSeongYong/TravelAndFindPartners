@@ -34,33 +34,52 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/js/bootstrap-datepicker.min.js"></script>
 <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
 <script src="https://kit.fontawesome.com/d0a7af3fd0.js" crossorigin="anonymous"></script>
-
 </head>
 <body>
 
 	<!-- 네브바 시작 -->
 	<nav class="navbar navbar-expand-lg bg-light">
+<<<<<<< HEAD
+		<div class="container-fluid">
+			<a class="navbar-brand" href="http://localhost:8080/TravelAndFindPartners/home"><img src="./images/logo.gif" alt="로고"></a>
+=======
 		<div class="container" >
 			<a class="navbar-brand" href="#">트립소다</a>
 			<div>
+>>>>>>> refs/remotes/origin/master
 			<button class="navbar-toggler" type="button"
 				data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
 				aria-controls="navbarNavDropdown" aria-expanded="false"
 				aria-label="Toggle navigation">
 				<span class="navbar-toggler-icon"></span>
 			</button>
+<<<<<<< HEAD
+			<div class="collapse navbar-collapse" id="navbarNavDropdown" style="justify-content: flex-end;">
+=======
 			</div>
 			<div class="collapse navbar-collapse" id="navbarNavDropdown"
 				style="justify-content: flex-end;">
+>>>>>>> refs/remotes/origin/master
 				<ul class="navbar-nav">
-					<li class="nav-item dropdown"><a
-						class="nav-link dropdown-toggle" href="#" role="button"
-						data-bs-toggle="dropdown" aria-expanded="false"> 작성하기 </a>
-						<ul id="dropdown-menu" class="dropdown-menu">
-							<li><a class="dropdown-item" href="#">동행 모집하기</a></li>
-							<li><a class="dropdown-item" data-bs-toggle="modal"
-								data-bs-target="#scheduleModal">여행일정 만들기</a></li>
-						</ul></li>
+				    <!-- 로그인 및 회원가입 링크 -->
+				    <% if (session.getAttribute("id") == null) { %>
+				        <li class="nav-item login-signup"><a class="nav-link" href="login/loginform.jsp">로그인</a></li>
+				        <li class="nav-item login-signup"><a class="nav-link" href="sign/signUp.jsp">회원가입</a></li>
+				    <% } else { %>
+				        <!-- 사용자별 링크 및 로그아웃 옵션 -->
+				        <li class="nav-item"><a class="nav-link" href="myPage">마이페이지</a></li>
+				        <li class="nav-item"><a class="nav-link" href="logout">로그아웃</a></li>
+				    <% } %>
+				    
+				    <!-- 작성하기 드롭다운 -->
+				    <li class="nav-item dropdown">
+				        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">작성하기</a>
+				        <ul id="dropdown-menu" class="dropdown-menu">
+				            <li><a class="dropdown-item" href="write">동행 모집하기</a></li>
+				            <li><a class="dropdown-item" data-bs-toggle="modal" data-bs-target="#scheduleModal">여행일정 만들기</a></li>
+				        </ul>
+				    </li>
+				    
 				</ul>
 			</div>
 		</div>
@@ -70,16 +89,27 @@
 			<div class="collapse navbar-collapse" id="navbarNavDropdown">
 				<ul class="navbar-nav">
 					<li class="nav-item"><a class="nav-link active"
+<<<<<<< HEAD
+						aria-current="page" href="accountSettings1.jsp">홈</a></li>
+					<li class="nav-item"><a class="nav-link" href="companion">동행</a></li>
+					<li class="nav-item"><a class="nav-link" href="hello">일정</a></li>
+=======
 						aria-current="page" href="#">홈</a></li>
 					<li class="nav-item"><a class="nav-link" href="#">동행</a></li>
 					<li class="nav-item"><a class="nav-link" href="/">일정</a></li>
+>>>>>>> refs/remotes/origin/master
 				</ul>
 			</div>
 		</div>
 	</nav>
+<<<<<<< HEAD
+	
+	<!-- 여행일정 만들기 모달 -->
+=======
 	<br>
 
 	<%-- 여행일정 만들기 모달입니다  --%>
+>>>>>>> refs/remotes/origin/master
 	<div class="modal fade" id="scheduleModal" tabindex="-1"
 		aria-labelledby="scheduleModalLabel" aria-hidden="true">
 		<div class="modal-dialog modal-dialog-centered">
