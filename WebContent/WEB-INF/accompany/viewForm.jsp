@@ -442,7 +442,7 @@ function delete_click() {
 
 <script>
 
-const scheduleList = <%= request.getAttribute("schJson") %>;
+const scheduleList = <%= request.getAttribute("travelJson") %>;
 
 $(document).ready(function(){
     $("#delete").click(function(){

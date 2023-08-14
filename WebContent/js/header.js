@@ -1,3 +1,10 @@
+<<<<<<< HEAD
+$(function(){
+    $('.dropdown-head').on("click",function(){
+        $("#dropdown-menu").toggleClass('menu-off');
+    });
+});
+=======
 var scheduleLink = document.getElementById("scheduleLink");
         var dropdownMenu = document.getElementById("dropdown-menu");
 
@@ -16,3 +23,4 @@ window.onload = function() {
             loginButton.innerHTML = '<a href="login">로그인</a> | <a href="sign">회원가입</a>';
         }
     };
+>>>>>>> branch 'myoung' of https://github.com/YunSeongYong/TravelAndFindPartners.git

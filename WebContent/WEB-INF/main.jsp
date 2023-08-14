@@ -35,30 +35,16 @@
         /* 헤더와의 마진을 추가 */
         .banner-container {
 		    position: relative;
-		    margin-top: 20px;
 		    display: flex;
 		    align-items: flex-end;
 		}
 		
-		.accompany-text {
-		    position: absolute;
-		    left: 270px;
-		    bottom: 250px;
-		    margin-left: 20px;
-		}
-		
-		.card-container {
-		    display: flex;
-		    flex-wrap: wrap;
-		    justify-content: space-between;
-		    max-width: 1200px;
-		    margin: 20px auto;
-		}
 	</style>
 </head>
 <body>
     <%-- 헤더 --%>
-    <%@ include file="/WEB-INF/view/layout/head.jsp"%>
+    <%@ include file="/WEB-INF/view/layout/header.jsp"%>
+
     
     <%-- 배너 --%>
     <div class="banner-container">
@@ -115,6 +101,6 @@
         });
     </script>
     <%-- 푸터 --%>
-    
+    <%@ include file="/WEB-INF/view/layout/footer.jsp"%>
 </body>
 </html>

@@ -9,10 +9,10 @@ import java.util.List;
 
 import dbutil.DBUtil;
 
-public class ScheduleDAO {
-	public List<Schedule> getList(String inputId) throws SQLException {
-		String sql = "SELECT no, id, title FROM schedule WHERE id = ?";
-		List<Schedule> list = new ArrayList<Schedule>();
+public class TravelDAO {
+	public List<Travel> getList(String inputId) throws SQLException {
+		String sql = "SELECT travel_id, member_id, memo FROM travel WHERE member_id = ?";
+		List<Travel> list = new ArrayList<Travel>();
 		
 		Connection conn = null;
 		PreparedStatement stmt = null;
@@ -26,13 +26,13 @@ public class ScheduleDAO {
 			
 			while (rs.next()) {
 				
-				int no = rs.getInt("no");
-				String id = rs.getString("id");
-				String title = rs.getString("title");
+				int no = rs.getInt("travel_id");
+				String id = rs.getString("member_id");
+				String title = rs.getString("memo");
 				
-				Schedule schedule = new Schedule(no, id, title);
+				Travel travel = new Travel(no, id, title);
 				
-				list.add(schedule);
+				list.add(travel);
 			}
 		} catch (SQLException e) {
 			e.printStackTrace();

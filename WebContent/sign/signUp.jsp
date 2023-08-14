@@ -8,6 +8,7 @@
 <link rel="stylesheet" href="signStyle.css">
 <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
 </head>
+
 <body>
 	<section class="sign">
         <h2>회원가입</h2>
@@ -42,7 +43,7 @@
                     <!-- <td><span>nickname</span></td> -->
                     <td>
                         <div>
-                            <input type="text" name="nickname" id="nickname" maxlength='5'placeholder="닉네임(2자 ~ 5자)" oninput="checkNicknameDuplication()"/>
+                            <input type="text" name="nickname" id="nickname" maxlength='6'placeholder="닉네임(2자 ~ 6자)" oninput="checkNicknameDuplication()"/>
                         </div>
                         <div id="nicknameCheckResult"></div>
                     </td>
