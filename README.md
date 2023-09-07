@@ -10,7 +10,7 @@
 </p>
 
 ## Navigation
-1. [팀원 및 역할 소개](#how-to-use)
+1. [팀원 및 역할 소개](#팀원 및 역할 소개)
 2. [Types](#types)
 3. [Color](#color)
 4. [Custom Color List](#custom-color-list)
