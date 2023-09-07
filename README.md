@@ -1,4 +1,4 @@
-![image](https://github.com/YunSeongYong/TravelAndFindPartners/assets/134483484/b8135222-c372-4727-a582-8f5868bfc71e)[![오늘의 방문자 수 / 총 방문자 수](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FYunSeongYong%2FTravelAndFindPartners%2Fblob%2Fmain%2FREADME.md&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=오늘의%20방문자%20수%20%2F%20총%20방문자%20수&edge_flat=false)](https://hits.seeyoufarm.com)
+[![오늘의 방문자 수 / 총 방문자 수](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FYunSeongYong%2FTravelAndFindPartners%2Fblob%2Fmain%2FREADME.md&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=오늘의%20방문자%20수%20%2F%20총%20방문자%20수&edge_flat=false)](https://hits.seeyoufarm.com)
 
 
 
@@ -99,10 +99,39 @@
 
 <br>![image](https://github.com/YunSeongYong/TravelAndFindPartners/assets/134483484/e490cf69-0187-4fd9-a6e1-1da87032e21a)
 ![image](https://github.com/YunSeongYong/TravelAndFindPartners/assets/134483484/45018065-ef17-4ef7-9b6e-9af0d2cad7d8)
-<br>동행 게시글을 작성하는 화면입니다
+<br>동행 작성하기 화면입니다
 <br>지역, 모집 인원 수, 여행 날짜, 성향, 내용을 작성하여 동행자를 구할 수 있습니다
 </details>
 
+
+<details>
+<summary>일정 페이지</summary>
+
+<br>![image](https://github.com/YunSeongYong/TravelAndFindPartners/assets/134483484/f516e388-c6d3-46e8-8904-3d77d3869a23)
+![image](https://github.com/YunSeongYong/TravelAndFindPartners/assets/134483484/cd48bc9d-3755-4c25-9fe4-1f8c1310bb18)
+<br>일정 페이지 화면입니다 
+<br>다른 사람들이 작성한 여행 일정을 확인할 수 있습니다
+<br>검색 기능을 이용하여 원하는 게시물을 확인할 수 있습니다
+<br>필터 기능을 이용하여 원하는 날짜와 지역만 검색할 수 있습니다
+<br>각 게시물의 일정을 간략히 볼 수 있으며 자세한 일정도 확인할 수 있습니다
+
+<br>![image](https://github.com/YunSeongYong/TravelAndFindPartners/assets/134483484/d7191612-7e82-4ace-b751-46a87054765c)
+<br>동행 게시글을 작성하는 화면입니다
+<br>지역과 날짜가 기본적으로 표시되며 여행 날짜 별로 장소와 메모를 추가할 수 있습니다
+<br> 장소 추가 버튼을 누르면 구체적인 장소를 선택할 수 있는 페이지로 이동합니다
+
+<br>![image](https://github.com/YunSeongYong/TravelAndFindPartners/assets/134483484/5ea2417c-6708-4477-afef-ea253e361f1d)
+![image](https://github.com/YunSeongYong/TravelAndFindPartners/assets/134483484/0c30f025-dc1e-40ec-85d2-690611d85f80)
+<br>구체적인 장소를 정하는 화면입니다
+<br>직접 지도에서 장소를 찍거나, 주소를 검색하거나, 지역을 선택하여 장소를 추천 받아서 여행지를 선택할 수 있습니다
+<br>결정 완료 버튼을 누르면 이전 페이지로 이동하게 되며 사용자가 작성한 장소가 표시됩니다
+
+<br>![image](https://github.com/YunSeongYong/TravelAndFindPartners/assets/134483484/c69f069c-d93c-45d8-a8f3-33b5d2bf12d0)
+<br>사용자가 작성한 장소가 표시된 화면입니다
+<br>지도에 관광지 위치가 표시가 되며 경로 및 거리를 확인할 수 있습니다
+<br>여행지 글자를 드래그 하여 여행지 순서를 변경할 수도 있습니다
+
+</details>
 
 ## 실행_방법_및_준비물
 1. 덤프 파일 다운받고
