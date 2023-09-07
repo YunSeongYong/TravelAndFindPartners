@@ -11,7 +11,7 @@
 6. [진행 과정](#진행_과정)
 7. [시행 착오](#시행_착오)
 8. [소감](#소감)
-?. [기술 스택](#기술_스택)
+9. [기술 스택](#기술_스택)
 10. [Text Background](#text-background)
 11. [Text Animation](#text-animation)
 12. [Font Color](#fontcolor)
