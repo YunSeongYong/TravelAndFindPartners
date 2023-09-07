@@ -1,18 +1,10 @@
 ![header](https://capsule-render.vercel.app/api?type=waving&color=auto&height=300&section=header&text=여행%20동행%20프로젝트&fontSize=90&animation=fadeIn&fontAlignY=38&desc=여행%20동반자%20찾아서%20여행하기!&descAlignY=65&descAlign=62)
 
 <p align='center'> 여행 동행 프로젝트를 소개합니다! </p>
-<p align='center'>
-  <a href="https://github.com/kyechan99/capsule-render/labels/Idea">
-    <img src="https://img.shields.io/badge/IDEA%20ISSUE%20-%23F7DF1E.svg?&style=for-the-badge&&logoColor=white"/>
-  </a>
-  <a href="#demo">
-    <img src="https://img.shields.io/badge/DEMO%20-%234FC08D.svg?&style=for-the-badge&&logoColor=white"/>
-  </a>
-</p>
 
 ## 목차
 1. [팀원 및 역할 소개](#팀원및역할소개)
-2. [Types](#주제선정배경)
+2. [주제 선정 배경](#주제선정배경)
 3. [Color](#color)
 4. [Custom Color List](#custom-color-list)
 5. [Section](#section)
@@ -34,7 +26,7 @@
 
 Any of Idea -> [Idea-Issue](https://github.com/kyechan99/capsule-render/labels/Idea) or [PR](https://github.com/kyechan99/capsule-render/pulls)
 
-# 팀원및역할소개
+## 팀원및역할소개
 ```
 https://capsule-render.vercel.app/api?
 ```
@@ -50,7 +42,7 @@ HTML:
 <img src="https://capsule-render.vercel.app/api?type=wave&color=auto&height=300&section=header&text=capsule%20render&fontSize=90" />
 ```
 
-## Types
+## 주제선정배경
 Type data makes to change Background Image.
 - [wave](#wave) : default
 - [egg](#egg)
