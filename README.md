@@ -4,6 +4,8 @@
 <p align='center'> 마음 맞는 동행을 찾아 함께 여행하고, 여행 일정을 계획하여 공유할 수 있습니다!
 
 
+
+
 ## Index
 1. [프로젝트 소개](#프로젝트_소개)
 2. [주요 기능](#주요_기능)
@@ -11,6 +13,8 @@
 4. [기술 스택](#기술_스택)
 5. [협업 과정](#협업_과정)
 6. [팀원](#팀원)
+
+
 
 
 ## 프로젝트_소개
@@ -32,11 +36,15 @@
   2023.07 ~ 2023.08 (약 2주)
 
 
+
+
 ## 주요_기능
 - 회원가입 & 로그인
 - 동행 게시글 작성
 - 동행 게시판 댓글 작성
 - 여행 일정 만들기
+
+
 
 
 ## 실행_방법_및_준비물
@@ -47,13 +55,20 @@
 실행..
 
 
+
+
 ## 기술_스택
   <img src="https://img.shields.io/badge/java-007396?style=for-the-badge&logo=java&logoColor=white"> <img src="https://img.shields.io/badge/html5-E34F26?style=for-the-badge&logo=html5&logoColor=white">  <img src="https://img.shields.io/badge/css-1572B6?style=for-the-badge&logo=css3&logoColor=white"> <img src="https://img.shields.io/badge/javascript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black">   <img src="https://img.shields.io/badge/mysql-4479A1?style=for-the-badge&logo=mysql&logoColor=white">    <img src="https://img.shields.io/badge/github-181717?style=for-the-badge&logo=github&logoColor=white"> <img src="https://img.shields.io/badge/git-F05032?style=for-the-badge&logo=git&logoColor=white">
+
+
+
 
 ## 협업_과정
 - Git Project
   
   ![KakaoTalk_20230906_162914034](https://github.com/honghong77/TravelAndFindPartners/assets/134483747/02be8ec7-2e95-4c40-a4c6-22b287ac1410)
+
+
 
 
 ## 팀원
