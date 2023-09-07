@@ -2,7 +2,8 @@
 
 
 
-![header](https://capsule-render.vercel.app/api?type=waving&color=auto&height=300&section=header&text=여행%20동행%20프로젝트&fontSize=90&animation=fadeIn&fontAlignY=38&desc=여행%20동반자%20찾아서%20여행하기!&descAlignY=65&descAlign=62)
+![header](https://capsule-render.vercel.app/api?type=waving&color=auto&height=200&text=여행%20동행%20프로젝트)
+
 
 <p align='center'> 🏝️여행 동행 찾기👬
 <p align='center'> 마음 맞는 동행을 찾아 함께 여행하고, 여행 일정을 계획하여 공유할 수 있습니다!
