@@ -6,12 +6,12 @@
 1. [팀원 및 역할 소개](#팀원_및_역할_소개)
 2. [주제 선정 배경](#주제_선정_배경)
 3. [프로그램 소개](#프로그램_소개)
-4. [Custom Color List](#custom-color-list)
-5. [Section](#section)
-6. [Reversal](#reversal)
-7. [Height](#height)
-8. [Text](#text)
-9. [Desc](#desc)
+4. [프로그램 시연](#프로그램_시연)
+5. [협업 과정](#협업_과정)
+6. [진행 과정](#진행_과정)
+7. [시행 착오](#시행_착오)
+8. [소감](#소감)
+?. [기술 스택](#기술_스택)
 10. [Text Background](#text-background)
 11. [Text Animation](#text-animation)
 12. [Font Color](#fontcolor)
@@ -82,7 +82,7 @@ If you use `auto` mode. no need to change `fontColor`.
 >
 > Used section `header` and `footer` at the same time. 
 
-## Custom Color List
+## 프로그램_시연
 You can **customize the list of colors** that will appear randomly only for `&color=auto` and `&color=gradient`.
 
 Write `&customColorList= ` on the URL.
@@ -100,7 +100,7 @@ If you want to make many apperances of `idx=2`, you can write them repeatedly. (
 ![header](https://capsule-render.vercel.app/api?color=gradient&customColorList=0,2,2,5,30)
 ```
 
-## Theme
+## 협업_과정
 You can use the specified combination using `theme=`.
 
 Even if `color` and `fontColor` are used, theme has the highest priority.
@@ -113,7 +113,7 @@ Check the list of available themes at [pallete_theme.json](https://github.com/ky
 
 > I'm currently adding combinations from the [Link:theme](https://github.com/anuraghazra/github-readme-stats/blob/master/themes/README.md) little by little.
 
-## Section
+## 진행_과정
 Section data makes reverse Background Image.
 - `&section=header` : (default)
 - `&section=footer`
@@ -132,7 +132,7 @@ Reverse the image left and right. (Color at the same time)
 ![reversal](https://capsule-render.vercel.app/api?type=slice&reversal=true&color=gradient)
 ```
 
-## Height
+## 시행_착오
 Change Image Size. Default value is 120.
 
 Write `&height= ` on the URL
@@ -141,7 +141,7 @@ Write `&height= ` on the URL
 ```
 > Do not write `px`
 
-## Text
+## 소감
 Input text over the Image.
 
 Write Something `&text= `.
@@ -156,7 +156,7 @@ Write Something `&text= `.
 
 > It is recommended to use `%20` (blank) and `-nl-` (new line) only
 
-## Desc
+## 기술_스택
 Input desc over the Image.
 
 Write Something `&desc= `.
