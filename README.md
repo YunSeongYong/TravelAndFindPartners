@@ -14,79 +14,56 @@
 
 
 ## 프로젝트_소개
-```
-https://capsule-render.vercel.app/api?
-```
-Just write query parameter end of this url. Like this
-
-Markdown:
-```
-![header](https://capsule-render.vercel.app/api?type=wave&color=auto&height=300&section=header&text=capsule%20render&fontSize=90)
-```
-
-HTML:
-```
-<img src="https://capsule-render.vercel.app/api?type=wave&color=auto&height=300&section=header&text=capsule%20render&fontSize=90" />
-```
-
-## 주요_기능
-Type data makes to change Background Image.
-- [wave](#wave) : default
-- [egg](#egg)
-- [shark](#shark)
-- [slice](#slice)
-- [rect](#rect)
-- [soft](#soft)
-- [rounded](#rounded)
-- [cylinder](#cylinder)
-- [waving](#waving)
-- [transparent](#transparent)
-
-Write `&type= ` on the URL
-```
-![header](https://capsule-render.vercel.app/api?type=slice)
-```
-
-## 실행_방법_및_준비물
-코로나 이후 여행에 대한 관심이 높아짐
+- 주제 선정 이유
+  
+  - 코로나 이후 여행에 대한 관심이 높아짐
   
   ![KakaoTalk_20230906_161942679](https://github.com/honghong77/TravelAndFindPartners/assets/134483747/9126dc66-5cf8-4239-a3d0-3a7916ad25ba)
 
   출처 : ConsumerInsight
+
+  - 혼자 여행의 단점인 외로움을 해결하기 위해
+  
+  ![여행 그래프](https://github.com/honghong77/TravelAndFindPartners/assets/134483747/54e83306-798d-4b0e-a445-d42f40175443)
+
   
 - 개발 기간
 
   2023.07 ~ 2023.08 (약 2주)
 
 
+## 주요_기능
+- 회원가입 & 로그인
+- 동행 게시글 작성
+- 동행 게시판 댓글 작성
+- 여행 일정 만들기
+
+
+## 실행_방법_및_준비물
+1. 덤프 파일 다운받고
+2. zip
+톰캣이 필요하고
+이클립스 필요하고
+실행..
+
+
 ## 기술_스택
-You can **customize the list of colors** that will appear randomly only for `&color=auto` and `&color=gradient`.
+  <img src="https://img.shields.io/badge/java-007396?style=for-the-badge&logo=java&logoColor=white"> <img src="https://img.shields.io/badge/html5-E34F26?style=for-the-badge&logo=html5&logoColor=white">  <img src="https://img.shields.io/badge/css-1572B6?style=for-the-badge&logo=css3&logoColor=white"> <img src="https://img.shields.io/badge/javascript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black">   <img src="https://img.shields.io/badge/mysql-4479A1?style=for-the-badge&logo=mysql&logoColor=white">    <img src="https://img.shields.io/badge/github-181717?style=for-the-badge&logo=github&logoColor=white"> <img src="https://img.shields.io/badge/git-F05032?style=for-the-badge&logo=git&logoColor=white">
 
-Write `&customColorList= ` on the URL.
+## 협업_과정
+- Git Project
+  
+  ![KakaoTalk_20230906_162914034](https://github.com/honghong77/TravelAndFindPartners/assets/134483747/02be8ec7-2e95-4c40-a4c6-22b287ac1410)
 
-- If you use `&color=auto`, look at [pallete list](https://github.com/kyechan99/capsule-render/blob/master/src/pallete.json).
-- If you use `&color=gradient`, look at [gradient list](https://github.com/kyechan99/capsule-render/blob/master/src/gradient.json).
-
-Pick the color patterns you want and remember the `idx` value.
-
-For example, if the idx values ​​are 0, 2, and 3, write: `&customColorList=0,2,3`
-
-If you want to make many apperances of `idx=2`, you can write them repeatedly. (e.g. `&customColorList=0,2,2,2,2,3`)
-
-```
-![header](https://capsule-render.vercel.app/api?color=gradient&customColorList=0,2,2,5,30)
-```
 
 ## 팀원
-You can use the specified combination using `theme=`.
+유미홍
+- https://github.com/honghong77
 
-Even if `color` and `fontColor` are used, theme has the highest priority.
+윤성용
+- https://github.com/YunSeongYong
 
-Check the list of available themes at [pallete_theme.json](https://github.com/kyechan99/capsule-render/blob/master/src/pallete_theme.json).
+장명근
+- https://github.com/MyoungGeun
 
-```
-![reversal](https://capsule-render.vercel.app/api?type=rect&text=RECT&fontAlign=30&fontSize=30&desc=Use%20theme&descAlign=60&descAlignY=50&theme=radical)
-```
-
-> I'm currently adding combinations from the [Link:theme](https://github.com/anuraghazra/github-readme-stats/blob/master/themes/README.md) little by little.
 
