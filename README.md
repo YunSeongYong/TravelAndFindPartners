@@ -19,12 +19,6 @@
 5. [협업 과정](#협업_과정)
 6. [팀원](#팀원)
 
-아래의 콤보 박스를 클릭하여 주요 기능을 사진과 함께 확인하실 수 있습니다:
-<details>
-<summary>열기</summary>
-
-</details>
-
 
 ## 프로젝트_소개
 - 주제 선정 이유
@@ -53,6 +47,13 @@
 - 동행 게시판 댓글 작성
 - 여행 일정 만들기
 
+아래의 콤보 박스를 클릭하여 주요 기능을 사진과 함께 확인하실 수 있습니다:
+<details>
+<summary>열기</summary>
+![Image description](https://raw.githubusercontent.com/YunSeongYong/TravelAndFindPartners/main/assets/134483484/0554c146-d38b-4a2e-ac21-16e9a8bcad3d.png)
+
+
+</details>
 
 
 
