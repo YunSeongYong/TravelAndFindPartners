@@ -10,8 +10,8 @@
 </p>
 
 ## Navigation
-1. [팀원 및 역할 소개](#팀원 및 역할 소개)
-2. [Types](#types)
+1. [팀원 및 역할 소개](#팀원및역할소개)
+2. [Types](#주제선정배경)
 3. [Color](#color)
 4. [Custom Color List](#custom-color-list)
 5. [Section](#section)
@@ -33,7 +33,7 @@
 
 Any of Idea -> [Idea-Issue](https://github.com/kyechan99/capsule-render/labels/Idea) or [PR](https://github.com/kyechan99/capsule-render/pulls)
 
-# 팀원 및 역할 소개
+# 팀원및역할소개
 ```
 https://capsule-render.vercel.app/api?
 ```
