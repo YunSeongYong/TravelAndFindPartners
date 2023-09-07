@@ -1,4 +1,5 @@
-[![방문자 수](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FYunSeongYong%2FTravelAndFindPartners%2Fblob%2Fmain%2FREADME.md&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=방문자%20수&edge_flat=false)](https://hits.seeyoufarm.com)
+[![오늘의 방문자 수 / 총 방문자 수](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FYunSeongYong%2FTravelAndFindPartners%2Fblob%2Fmain%2FREADME.md&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=오늘의%20방문자%20수%20%2F%20총%20방문자%20수&edge_flat=false)](https://hits.seeyoufarm.com)
+
 
 
 ![header](https://capsule-render.vercel.app/api?type=waving&color=auto&height=300&section=header&text=여행%20동행%20프로젝트&fontSize=90&animation=fadeIn&fontAlignY=38&desc=여행%20동반자%20찾아서%20여행하기!&descAlignY=65&descAlign=62)
