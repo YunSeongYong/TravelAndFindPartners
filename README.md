@@ -10,7 +10,7 @@
 </p>
 
 ## Navigation
-1. [How to Use](#how-to-use)
+1. [팀원 및 역할 소개](#how-to-use)
 2. [Types](#types)
 3. [Color](#color)
 4. [Custom Color List](#custom-color-list)
@@ -33,7 +33,7 @@
 
 Any of Idea -> [Idea-Issue](https://github.com/kyechan99/capsule-render/labels/Idea) or [PR](https://github.com/kyechan99/capsule-render/pulls)
 
-# How to Use
+# 팀원 및 역할 소개
 ```
 https://capsule-render.vercel.app/api?
 ```
