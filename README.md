@@ -2,7 +2,7 @@
 
 
 
-![header](https://capsule-render.vercel.app/api?type=waving&color=auto&height=200&text=여행%20동행%20프로젝트)
+[![header](https://capsule-render.vercel.app/api?type=waving&color=auto&height=200&text=여행%20동행%20프로젝트)](https://capsule-render.vercel.app/api?type=waving&color=auto&height=200&text=여행%20동행%20프로젝트)
 
 
 <p align='center'> 🏝️여행 동행 찾기👬
