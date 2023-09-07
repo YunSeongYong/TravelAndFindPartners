@@ -50,7 +50,7 @@
 
 아래의 콤보 박스를 클릭하여 주요 기능을 사진과 함께 확인하실 수 있습니다:
 <details>
-<summary>회원 가입 & 로그인</summary>
+<summary><span style="color:red; font-weight:bold;">회원 가입 & 로그인</span></summary>
 
 <br>![image](https://github.com/YunSeongYong/TravelAndFindPartners/assets/134483484/bcdf111c-ad4e-49e9-8160-7668ed70d725)
 <br>로그인 화면입니다
@@ -71,7 +71,7 @@
 
 
 <details>
-<summary>홈 화면</summary>
+<summary><span style="color:red; font-weight:bold;">홈 화면</span></summary>
 
 <br>![image](https://github.com/YunSeongYong/TravelAndFindPartners/assets/134483484/013af381-54c9-4ec9-b199-12547e9d0149)
 ![image](https://github.com/YunSeongYong/TravelAndFindPartners/assets/134483484/2fe44bee-be73-488b-8aae-8f7c8a951a30)
@@ -83,7 +83,7 @@
 
 
 <details>
-<summary>동행 페이지</summary>
+<summary><span style="color:red; font-weight:bold;">동행 페이지지</span></summary>
 
 <br>![image](https://github.com/YunSeongYong/TravelAndFindPartners/assets/134483484/f5e36e4b-f579-443b-85bd-8a3cb88b9cb4)
 ![image](https://github.com/YunSeongYong/TravelAndFindPartners/assets/134483484/07782da1-555d-4aec-b71a-ce39c864098c)
@@ -105,7 +105,7 @@
 
 
 <details>
-<summary>일정 페이지</summary>
+<summary><span style="color:red; font-weight:bold;">일정 페이지</span></summary>
 
 <br>![image](https://github.com/YunSeongYong/TravelAndFindPartners/assets/134483484/f516e388-c6d3-46e8-8904-3d77d3869a23)
 ![image](https://github.com/YunSeongYong/TravelAndFindPartners/assets/134483484/cd48bc9d-3755-4c25-9fe4-1f8c1310bb18)
