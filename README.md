@@ -3,9 +3,9 @@
 <p align='center'> 여행 동행 프로젝트를 소개합니다! </p>
 
 ## 목차
-1. [팀원 및 역할 소개](#팀원및역할소개)
-2. [주제 선정 배경](#주제선정배경)
-3. [Color](#color)
+1. [팀원 및 역할 소개](#팀원_및_역할_소개)
+2. [주제 선정 배경](#주제_선정_배경)
+3. [프로그램 소개](#프로그램_소개)
 4. [Custom Color List](#custom-color-list)
 5. [Section](#section)
 6. [Reversal](#reversal)
@@ -26,7 +26,7 @@
 
 Any of Idea -> [Idea-Issue](https://github.com/kyechan99/capsule-render/labels/Idea) or [PR](https://github.com/kyechan99/capsule-render/pulls)
 
-## 팀원및역할소개
+## 팀원_및_역할_소개
 ```
 https://capsule-render.vercel.app/api?
 ```
@@ -42,7 +42,7 @@ HTML:
 <img src="https://capsule-render.vercel.app/api?type=wave&color=auto&height=300&section=header&text=capsule%20render&fontSize=90" />
 ```
 
-## 주제선정배경
+## 주제_선정_배경
 Type data makes to change Background Image.
 - [wave](#wave) : default
 - [egg](#egg)
@@ -60,7 +60,7 @@ Write `&type= ` on the URL
 ![header](https://capsule-render.vercel.app/api?type=slice)
 ```
 
-## Color
+## 프로그램_소개
 Change Background Image!
 - `&color=auto` : Proven random color. List are [here](https://github.com/kyechan99/capsule-render/blob/master/src/pallete.json)
 - `&color=timeAuto` : Proven random color, but is decided by time.
