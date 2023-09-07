@@ -11,7 +11,8 @@
 
 
 
-## Index
+## Index![Uploading image.png…]()
+
 1. [프로젝트 소개](#프로젝트_소개)
 2. [주요 기능](#주요_기능)
 3. [실행 방법 및 준비물](#실행_방법_및_준비물)
@@ -50,7 +51,8 @@
 아래의 콤보 박스를 클릭하여 주요 기능을 사진과 함께 확인하실 수 있습니다:
 <details>
 <summary>열기</summary>
-![Image description](https://raw.githubusercontent.com/YunSeongYong/TravelAndFindPartners/main/assets/134483484/0554c146-d38b-4a2e-ac21-16e9a8bcad3d.png)
+![제목 없음](https://github.com/YunSeongYong/TravelAndFindPartners/assets/134483484/88495ab7-548a-4634-a997-8d7d71ba33c8)
+
 
 
 </details>
